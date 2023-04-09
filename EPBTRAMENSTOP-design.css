@@ -1,0 +1,148 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #575555;
+    color: #fff;
+}
+
+header {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #d2d2d2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: lighter;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s ease-in-out;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid #fff;
+    transform: translateY(-2px);
+}
+
+/* website main body */
+
+main {
+    font-family: calibri;
+}
+
+.product-info {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 50px;
+    float: left;
+    width: 50%;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+
+.product-details {
+    flex: 1;
+    margin-left: 50%;
+}
+
+.product-details h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.shipping-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-specs h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-specs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product-specs li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.product-images h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-images img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
